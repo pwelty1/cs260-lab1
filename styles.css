@@ -1,0 +1,172 @@
+body {
+  height: auto; /* Used to enable scrolling */
+  background: linear-gradient(55deg, rgba(234, 236, 236, 0.98) 0%, rgb(178, 203, 199) 51%, rgb(165, 218, 213) 85%);
+}
+
+h1{
+  text-align: center;
+  font-family: 'lombokregular';
+  margin: 10%;
+  letter-spacing: 6px;
+  border-bottom: solid 1px;
+}
+
+@font-face {
+    font-family: 'lombokregular';
+    src: url('webfontkit-20190913-125344/lombok-webfont.eot');
+    src: url('webfontkit-20190913-125344/lombok-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit-20190913-125344/lombok-webfont.woff2') format('woff2'),
+         url('webfontkit-20190913-125344/lombok-webfont.woff') format('woff'),
+         url('webfontkit-20190913-125344/lombok-webfont.ttf') format('truetype'),
+         url('webfontkit-20190913-125344/lombok-webfont.svg#lombokregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'chronicnormal';
+    src: url('webfontkit-20190913-121750/chronic-normal-webfont.eot');
+    src: url('webfontkit-20190913-121750/chronic-normal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit-20190913-121750/chronic-normal-webfont.woff2') format('woff2'),
+         url('webfontkit-20190913-121750/chronic-normal-webfont.woff') format('woff'),
+         url('webfontkit-20190913-121750/chronic-normal-webfont.ttf') format('truetype'),
+         url('webfontkit-20190913-121750/chronic-normal-webfont.svg#chronicnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.navbar-brand {
+  font-family: 'chronicnormal';
+}
+
+.nav-link {
+  font-family: 'lombokregular';
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 5% 25%;
+
+
+}
+
+.card #Selfie img {
+  object-fit: contain;
+  text-align: center;
+}
+h2 {
+  font-family: 'lombokregular';
+  text-align: center;
+  margin: 20px
+}
+.container {
+  padding: 0 16px;
+  text-align: center;
+}
+
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 4px;
+  margin: 5% 10%;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0px 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  height:auto;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+.column img:hover {
+margin-top:8px
+-webkit-transform: scale(1.04);
+-ms-transform: scale(1.04);
+transform: scale(1.04);
+transition: 1s ease;
+
+
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.entry p{
+  border-bottom: solid 1px;
+  margin:0% 17%;
+  margin-bottom: 5%
+}
+
+.entry h6{
+  margin:0% 5%;
+}
+
+div .entry{
+  margin-bottom: 5%;
+}
+
+.about img {
+  float: left;
+  margin-left: 10%;
+  margin-right: 5%;
+  width: 30%;
+  height:auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.about p{
+  margin-right: 10%;
+  margin-left: 10%;
+
+}
+
+.about1 img{
+  float: right;
+  width:40%;
+  height:auto;
+  margin-right:10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.about1 p{
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+footer{
+  color: solid black;
+  margin:10%;
+  text-align: center;
+
+}
